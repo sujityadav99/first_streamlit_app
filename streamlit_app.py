@@ -48,7 +48,7 @@ except URLError as e:
 
 # import snowflake.connector
 
-my_cur = my_cnx.cursor()
+# my_cur = my_cnx.cursor()
 # my_cur.execute("use warehouse pic_rivery_wh")
 
 streamlit.header("The fruit load list contains:")
