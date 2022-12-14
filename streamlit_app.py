@@ -43,14 +43,13 @@ try:
 except URLError as e:
   streamlit.error
 
-streamlit.stop()
+# streamlit.stop()
 
 
 # import snowflake.connector
 
 my_cur = my_cnx.cursor()
 # my_cur.execute("use warehouse pic_rivery_wh")
-
 
 streamlit.header("The fruit load list contains:")
 # snowflake related functions:
